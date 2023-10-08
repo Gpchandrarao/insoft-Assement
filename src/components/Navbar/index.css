@@ -1,0 +1,53 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.background {
+  background: url("../images/logo-cloud.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20vh;
+  width: 20vw;
+  display: flex;
+  /* justify-content: center; */
+}
+
+.logo {
+  width: 60%;
+  height: 50%;
+  margin: 0 60px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 60px 0px 0px;
+}
+
+.ul-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+  color: #fff;
+}
+
+.options {
+  background-color: #ff5202;
+  border: none;
+  color: #fff;
+}
+
+.university {
+  margin-right: 10px;
+}
+
+.management {
+  background-color: #000000;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+}
